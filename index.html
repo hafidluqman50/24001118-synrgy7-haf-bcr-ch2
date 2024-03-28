@@ -4,8 +4,8 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Car Rental</title>
-        <link href="bootstrap.min.css" rel="stylesheet" />
-        <link href="custom.css" rel="stylesheet" />
+        <link href="assets/bootstrap.min.css" rel="stylesheet" />
+        <link href="assets/custom.css" rel="stylesheet" />
         <link
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
             rel="stylesheet"
@@ -87,11 +87,11 @@
                     >×</a
                 >
 
-                <a href="#">Our Services</a>
+                <a href="#" class="mt-2">Our Services</a>
                 <a href="#">Why Us</a>
                 <a href="#">Testimoni</a>
                 <a href="#">FAQ</a>
-                <a href="#">
+                <a href="#" class="mt-2">
                     <button
                         class="btn bg--lime-green-04 font--bold rounded-0 font--white"
                     >
@@ -99,6 +99,7 @@
                     </button>
                 </a>
             </div>
+            <div class="backdrop"></div>
         </aside>
         <main>
             <section id="introduction" class="section-introduction">
@@ -760,15 +761,17 @@
 </html>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-<script src="bootstrap.bundle.js"></script>
+<script src="assets/bootstrap.bundle.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 <script>
     function openNav() {
-        document.getElementById("mySidepanel").style.width = "250px";
+        document.getElementById("mySidepanel").style.width = "220px";
+        document.getElementsByClassName('backdrop')[0].style.display = 'block';
     }
 
     function closeNav() {
         document.getElementById("mySidepanel").style.width = "0";
+        document.getElementsByClassName('backdrop')[0].style.display = 'none';
     }
 </script>
 <script>
