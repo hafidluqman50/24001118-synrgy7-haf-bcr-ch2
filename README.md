@@ -2,9 +2,10 @@
 
 ## STRUCTURE FILE :
 - index.html
-- bootstrap.bundle.js
-- bootstrap.min.css
-- custom.css
-- owl.carousel.min.css
-- owl.carousel.min.js
-- owl.theme.default.min.css
+- assets
+  - bootstrap.bundle.js
+  - bootstrap.min.css
+  - custom.css
+  - owl.carousel.min.css
+  - owl.carousel.min.js
+  - owl.theme.default.min.css
